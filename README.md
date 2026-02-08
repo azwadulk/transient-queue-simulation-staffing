@@ -44,6 +44,8 @@ The simulation produces financial impact reports visualizing:
 * **Net Profit:** The ultimate objective function.
 * **Opportunity Cost:** Revenue lost due to queue balking.
 * **Wage Utilization:** Regular vs. Overtime pay distribution.
+* example results
+<img width="745" height="445" alt="Image" src="https://github.com/user-attachments/assets/b3b2f78b-8f21-48e9-85ac-ef02233c51ee" />
 
 ## Tech Stack
 * **Python 3.x**
