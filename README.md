@@ -20,7 +20,7 @@ The model addresses specific shortcomings of static capacity planning in stochas
     * **Psychological Balking:** Implements a "Hard Limit" on queue depth ($N=10$), modeling immediate customer loss upon seeing a full line.
 
 ## Simulation Logic
-The engine runs a **Monte Carlo Simulation** (N=5,000 runs) across hourly blocks using the following logic:
+The engine runs a **Monte Carlo Simulation** (N=80,000 runs) across hourly blocks using the following logic:
 
 * **Arrival Process:** Non-homogeneous Poisson Process ($\lambda_t$ varies hourly).
 * **Service Process:** Dynamic capacity $C_t = s_t \times \mu_{state}$, where $\mu$ shifts between `MU_FRESH` (24/hr) and `MU_TIRED` (20/hr).
